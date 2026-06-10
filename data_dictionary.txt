@@ -1,0 +1,91 @@
+CREDIT CARD DATASET
+
+Dataset: credit_card.csv
+
+Sl_No
+
+* Data Type: Integer
+* Description: Row identifier
+* Relationship: Unique identifier for each record
+* Limitation: Not useful for clustering and removed during preprocessing
+
+Customer Key
+
+* Data Type: Integer
+* Description: Customer identifier
+* Relationship: Unique customer ID
+* Limitation: Not useful for clustering and removed during preprocessing
+
+Avg_Credit_Limit
+
+* Data Type: Float
+* Description: Average credit limit assigned to the customer
+* Relationship: Used to measure customer financial capacity
+* Limitation: Large values require scaling
+
+Total_Credit_Cards
+
+* Data Type: Float
+* Description: Number of credit cards held by the customer
+* Relationship: Indicates customer engagement with the bank
+* Limitation: None
+
+Total_visits_bank
+
+* Data Type: Float
+* Description: Number of visits to a physical bank branch
+* Relationship: Measures in-person banking activity
+* Limitation: None
+
+Total_visits_online
+
+* Data Type: Float
+* Description: Number of online banking visits
+* Relationship: Measures digital banking activity
+* Limitation: None
+
+Total_calls_made
+
+* Data Type: Float
+* Description: Number of calls made to the bank
+* Relationship: Measures customer support interactions
+* Limitation: None
+
+MALL CUSTOMERS DATASET
+
+Dataset: Mall_Customers.csv
+
+CustomerID
+
+* Data Type: Integer
+* Description: Customer identifier
+* Relationship: Unique customer ID
+* Limitation: Not useful for clustering and removed during preprocessing
+
+Gender
+
+* Data Type: Categorical
+* Description: Customer gender
+* Relationship: Encoded as numeric values for clustering
+* Limitation: Binary representation may not capture all gender identities
+
+Age
+
+* Data Type: Integer
+* Description: Customer age
+* Relationship: Used to identify age-based customer groups
+* Limitation: None
+
+Annual Income (k$)d
+
+* Data Type: Integer
+* Description: Customer annual income in thousands of dollars
+* Relationship: Used to identify spending and purchasing power
+* Limitation: Requires scaling before clustering
+
+Spending Score (1-100)
+
+* Data Type: Integer
+* Description: Score assigned by the mall based on customer spending behavior
+* Relationship: Primary measure of customer activity and value
+* Limitation: Scoring methodology is not provided in the dataset

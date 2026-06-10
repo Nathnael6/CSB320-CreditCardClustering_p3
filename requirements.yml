@@ -1,0 +1,17 @@
+name: csb320-clustering
+
+dependencies:
+
+* python=3.12
+* pandas
+* numpy
+* matplotlib
+* seaborn
+* scikit-learn
+* scipy
+* jupyter
+* pip
+* pip:
+
+  * black
+  * flake8
