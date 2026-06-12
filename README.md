@@ -46,7 +46,7 @@ CSB320-CreditCardClustering_p3/
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+
 cd CSB320-CreditCardClustering_p3
 ```
 
@@ -111,5 +111,5 @@ No additional helper Python files were used. All analysis was performed directly
 
 ## Video Demonstration
 
-YouTube Video:
+YouTube Video: https://youtu.be/1zYuvvO5L0g
 
